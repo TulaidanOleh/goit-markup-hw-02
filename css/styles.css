@@ -131,3 +131,37 @@ body {
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/*--------------PORTFOLIO--------------------*/
+
+.portfolio-filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--color-taxt-header);
+}
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  background-color: var(--color-hover);
+  color: var(--color-basic);
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-taxt-header);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--color-taxt-basic);
+}
